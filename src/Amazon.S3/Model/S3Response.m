@@ -140,7 +140,7 @@
 {
     NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)response;
 
-    self.httpStatusCode = [httpResponse statusCode];
+    self.httpStatusCode = (int32_t)[httpResponse statusCode];
 
     NSDictionary *allHeaders = [httpResponse allHeaderFields];
     
