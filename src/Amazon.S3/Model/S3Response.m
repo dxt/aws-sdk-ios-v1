@@ -25,6 +25,8 @@
 
 @implementation S3Response
 
+@dynamic responseHeader;
+
 -(id)init
 {
     self = [super init];
