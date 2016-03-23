@@ -86,7 +86,7 @@
 @private
 	NSString *error;
     NSMutableArray *stateStack;
-    __weak AWS_SBJsonStreamWriterState *state;
+    AWS_SBJsonStreamWriterState *state;
     id<AWS_SBJsonStreamWriterDelegate> delegate;
 	NSUInteger maxDepth;
     BOOL sortKeys, humanReadable;
